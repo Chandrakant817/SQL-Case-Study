@@ -93,8 +93,8 @@ limit 3;
 
 ##...What are the total quantity, revenue and discount for each segment?...
 select b.segment_id,b.segment_name,sum(a.qty) as Total_Quantity,
-					  sum(a.qty * a.price) as Revenue,
-                      sum(a.price * a.qty * a.discount)/100 as Total_Discount
+       sum(a.qty * a.price) as Revenue,
+       sum(a.price * a.qty * a.discount)/100 as Total_Discount
 from sales as a
 inner join product_details b
 on a.prod_id = b.product_id
