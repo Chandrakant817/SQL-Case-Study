@@ -1,5 +1,5 @@
 # SQL-Case-Study
-## SQL Case Study With Code.
+## SQL Case Study With Code and Documents.
 
 
 ### Special Thanks to CloudyML:
